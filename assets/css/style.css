@@ -1,0 +1,18 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-entrar input[type="password"] {
+    background-image: url("../img/olho.svg");
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    padding-right: 40px;
+}
+
+.form-entrar button[type="submit"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+.links-form {
+    font-size: 0.75rem;
+}
