@@ -2,12 +2,44 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.form-entrar input[type="password"] {
-    background-image: url("../img/olho.svg");
+/* Faça login */
+
+.faca-login{
+    background-image: url("../img/background-awe.png");
     background-repeat: no-repeat;
-    background-position: 97% center;
-    padding-right: 40px;
+    background-size: cover;
+    height: 710px;
 }
+
+.login{
+    padding: 133px 0 0 0;
+}
+
+.logo-awe{
+    padding: 55px 0 0 0;
+}
+
+.login-meio p{
+    font-family: 'Poppins', sans-serif;
+    color: #307FE2;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.linha-azul{
+    width: 168px;
+    height: 4px;
+    border-radius: 100px;
+    background: #307FE2;
+}
+
+.login-meio span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+/* Form entrar */
 
 .form-entrar button[type="submit"] {
     font-family: 'Poppins', sans-serif;
@@ -15,4 +47,21 @@ body {
 
 .links-form {
     font-size: 0.75rem;
+}
+
+.senha{
+    position: relative;
+}
+
+.form-senha{
+    display: inline;
+}
+
+.senha .eye-closed{
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 3%;
+    color: #307FE2;
 }
