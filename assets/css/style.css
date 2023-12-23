@@ -8,15 +8,13 @@ body {
     background-image: url("../img/background-awe.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 710px;
-}
-
-.login{
-    padding: 133px 0 0 0;
+    height: 100vh;
 }
 
 .logo-awe{
-    padding: 55px 0 0 0;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 50%;
 }
 
 .login-meio p{

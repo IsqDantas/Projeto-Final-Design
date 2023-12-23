@@ -15,10 +15,10 @@ Yep
 
 ### 28.12 - montagem de interfaces 1/4
 
-- Carlos: 
-- Davi:
-- Isaque:
-- Lucas: 
+- Carlos: -----
+- Davi: -----
+- Isaque: Forms Entrar
+- Lucas: Faça Login + Java Script
 
 ### 29.12 - montagem de interfaces 2/4
 
