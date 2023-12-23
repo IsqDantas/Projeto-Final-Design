@@ -18,7 +18,7 @@ Yep
 - Carlos: -----
 - Davi: -----
 - Isaque: Forms Entrar
-- Lucas: Faça Login + Java Script
+- Lucas: Faça Login + JavaScript
 
 ### 29.12 - montagem de interfaces 2/4
 
