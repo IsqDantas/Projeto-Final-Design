@@ -29,6 +29,7 @@ body {
     height: 4px;
     border-radius: 100px;
     background: #307FE2;
+    margin-bottom: 8px;
 }
 
 .login-meio span{
@@ -68,4 +69,10 @@ body {
 .forgotten, .nova-senha h3 {
     border-bottom: 1px solid var(--Fuschia-60, #FCDDEC);
     padding-bottom: 16px;
+}
+
+.recupere {
+    color: #333;
+    width: 400px;
+    font-size: 14px;
 }
