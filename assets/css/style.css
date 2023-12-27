@@ -63,3 +63,9 @@ body {
     right: 3%;
     color: #307FE2;
 }
+
+/* alterar senha */
+.forgotten {
+    border-bottom: 1px solid var(--Fuschia-60, #FCDDEC);
+    padding-bottom: 16px;
+}
