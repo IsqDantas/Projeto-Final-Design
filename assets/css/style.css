@@ -40,6 +40,10 @@ body {
 
 /* Form entrar */
 
+.form-entrar {
+    padding-bottom: 144px;
+}
+
 .form-entrar button[type="submit"] {
     font-family: 'Poppins', sans-serif;
 }
@@ -71,6 +75,13 @@ body {
     padding-bottom: 16px;
 }
 
+.linha-fuchsia {
+    border-bottom: 1px solid var(--Fuschia-60, #FCDDEC);
+}
+
+.form-entrar a[href="index.html"] {
+    font-size: 12px;
+}
 .recupere {
     color: #333;
     width: 400px;
