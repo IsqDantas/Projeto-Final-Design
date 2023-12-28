@@ -27,7 +27,7 @@
         rel="stylesheet">
 
 </head>
-<body class="h-100">
+<body class="h-100 d-flex gap-5">
     <section id="menu-lateral" class="col-2 h-100">
         <div class="menu-lateral-container d-flex flex-column justify-content-between h-100">
             <div>
@@ -57,10 +57,38 @@
             </div>
         </div>
     </section>
-    <section class="dashboard col-10">
+    <section class="dashboard col-9 offset-1">
         <div class="container">
             <div class="row">
-                <!-- Escreva o código aqui! -->
+                <div class="col-3">
+                    <h4 class="fw-bold mb-4">Suas inscrições</h4>
+                    <div class="row gap-3">
+                        <div class="card">
+                            <div class="card-body d-flex flex-column gap-5">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex gap-3 align-content-center">
+                                        <h5 class="card-title fw-semibold">Vôlei de Quadra</h5>
+                                        <div class="badge px-2 py-1 badge-confirmado fw-bold">Confirmado</div>
+                                    </div>
+                                    <img src="assets/img/volei.svg" alt="" class="img-fluid">
+                                </div>
+                                <a href="#" class="btn fw-semibold btn-light">Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex flex-column gap-5">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex gap-3 align-content-center">
+                                        <h5 class="card-title fw-semibold">Futebol Society</h5>
+                                        <div class="badge px-2 py-1 badge-a-pagar fw-bold">A Pagar</div>
+                                    </div>
+                                    <img src="assets/img/futebol.svg" alt="" class="img-fluid">
+                                </div>
+                                <div class="d-flex justify-content-between"><a href="#" class="btn fw-semibold btn-light">Detalhes</a><a href="#" class="btn fw-semibold btn-primary">Efetuar Pagamento</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
