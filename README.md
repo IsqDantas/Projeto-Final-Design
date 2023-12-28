@@ -22,10 +22,10 @@ Yep
 
 ### 29.12 - montagem de interfaces 2/4
 
-- Carlos: 
-- Davi:
-- Isaque:
-- Lucas: 
+- Carlos: -----
+- Davi: "alterar-senha"
+- Isaque: "alterar-senha-feed"
+- Lucas: "renovar-senha" e "renovar-senha-feed"
 
 ### 04.01 - montagem de interface 3/4
 
