@@ -87,3 +87,36 @@ body {
     width: 400px;
     font-size: 14px;
 }
+
+/* Menu lateral */
+
+#menu-lateral {
+    font-family: 'Poppins', sans-serif;
+    border-right: 1px solid #BDBDBD;
+}
+
+#menu-lateral .menu-lateral-container {
+    padding: 32px;
+}
+
+#menu-lateral .logos {
+    margin-bottom: 32px;
+}
+
+#menu-lateral .secoes {
+    gap: 20px;
+}
+
+#menu-lateral .linha-cinza-claro {
+    border-color: #F2F2F2;
+}
+
+#menu-lateral .texto-saida {
+    color: #FF161F; 
+}
+
+#menu-lateral .texto-atleta {
+    color: #4F4F4F;
+    font-size: 12px;
+}
+
