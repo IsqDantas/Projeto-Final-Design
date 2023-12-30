@@ -122,62 +122,68 @@ body {
 
 /* Dashboard */
 
-.dashboard {
+#dashboard .col-12, #dashboard .col-3 {
+    margin: 0;
+    padding: 0;
+}
+
+#dashboard {
     font-family: "Poppins", sans-serif;
     padding-top: 32px;
 }
 
-.dashboard .card {
+#dashboard .card {
     font-family: "Open Sans", sans-serif;
 }
 
-.dashboard .badge-confirmado, .dashboard .badge-a-pagar {
+#dashboard .badge-confirmado, #dashboard .badge-a-pagar {
     border-radius: 14px;
     color: var(--Primary-White, #FFF);
     font-size: 8px;
     line-height: 120%;
 }
 
-.dashboard .badge-confirmado {
+#dashboard .badge-confirmado {
     background: var(--Green-1, #219653);
+    padding: 7px 8px;
 }
 
-.dashboard .badge-a-pagar {
+#dashboard .badge-a-pagar {
     background: #BB6BD9;
 }
 
-.dashboard .card-body {
+#dashboard .card-body {
     gap: 36px;
 }
 
 
-.dashboard .card-body .img-fluid {
+#dashboard .card-body .img-fluid {
     max-width: 38px;
 }
 
-.dashboard .card-body .card-title {
+#dashboard .card-body .card-title {
     font-size: 16px;
     margin: 0;
 }
 
-.dashboard .btn {
+#dashboard .btn {
     font-size: 14px;
     width: fit-content;
     border-radius: 6px;
     padding: 6px 10px;
 }
 
-.dashboard .btn-light {
+#dashboard .btn-light {
     border: 1px solid #DFE2E7;
     background: none;
 }
 
-.dashboard .btn-primary {
+#dashboard .btn-primary {
     border: none;
     background: #0095D9;
 }
 
-.dashboard .btn-primary:active {
+#dashboard .btn-primary:active {
     border: none;
     background: #217CA6;
 }
