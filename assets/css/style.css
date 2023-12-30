@@ -127,13 +127,10 @@ body {
     padding: 0;
 }
 
-#dashboard {
+#dashboard h4{
     font-family: "Poppins", sans-serif;
+    font-size: 18px;
     padding-top: 32px;
-}
-
-#dashboard .card {
-    font-family: "Open Sans", sans-serif;
 }
 
 #dashboard .badge-confirmado, #dashboard .badge-a-pagar {
