@@ -125,6 +125,7 @@ body {
 
 #dashboard .junior {
     min-width: 200px;
+    margin-right: 24px;
 }
 
 #dashboard .card {
