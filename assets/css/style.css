@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 1500px;
 }
 
 /* Faça login */
@@ -122,9 +123,14 @@ body {
 
 /* Dashboard */
 
+#dashboard .junior {
+    min-width: 200px;
+}
+
 #dashboard .card {
     padding-top: 16px; 
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 
 #dashboard .bola-imagem {
@@ -164,3 +170,16 @@ body {
 #dashboard .btn-3 {
     color: #FF161F;
 }
+
+#dashboard .list-group {
+    min-width: 662px;
+}
+
+#dashboard .list-group-item {
+    font-size: 14px;
+}
+
+#dashboard .list-group-item span{
+    width: 340px;
+    color: #4F4F4F;
+} 
