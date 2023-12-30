@@ -131,7 +131,7 @@ body {
 #dashboard .card {
     padding-top: 16px; 
     font-family: 'Open Sans', sans-serif;
-    width: 100%;
+    color: #333333;
 }
 
 #dashboard .bola-imagem {
@@ -181,11 +181,14 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     font-weight: 600;
-    color: #333333;
 }
 
 #dashboard .list-group-item span{
     width: 340px;
-    color: #4F4F4F;
+    color: #333333; 
     font-weight: 400;
-} 
+}
+
+#dashboard .list-group-item span:nth-child(2){
+    color: #4F4F4F;
+}
