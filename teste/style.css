@@ -1,0 +1,21 @@
+.dropDown {
+    border-radius: 8px;
+    border: solid 1px #E0E0E0;
+    display: none;
+}
+
+.item {
+    height: 30px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: #0095D9;
+    padding-left: 15px;
+    color: #fff;
+    transition: .3s;
+}
