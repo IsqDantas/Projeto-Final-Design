@@ -102,6 +102,7 @@
           </div>
         </div>
 
+          <!-- editar perfil -->
         <form class="form border col-7 mt-5 d-flex flex-column gap-4">
           <fieldset disabled class="d-flex gap-4">
             <div class="cpf .segunda-formatacao">
@@ -113,12 +114,10 @@
               <input type="text" id="disabledTextInput" class="form-control" placeholder="jrprogramador@gmail.com">
             </div>
           </fieldset>
-
           <div class="nome formatacao">
             <label for="text" class="form-label">Nome</label>
             <input type="text" class="form-control" id="Text" placeholder="Jr Programador da Silva">
           </div>
-
           <fieldset disabled class="nascimento segunda-formatacao">
             <label for="text" class="form-label">Nascimento</label>
             <div class="position-relative segunda-formatacao">
@@ -126,22 +125,21 @@
               <img src="../Projeto-Final-Design/assets/img/Vector.svg" alt="" class="position-absolute">
             </div>
           </fieldset>
-
           <fieldset disabled class="nome segunda-formatacao">
             <label for="text" class="form-label">Gênero</label>
             <div class="position-relative segunda-formatacao">
               <input type="text" class="form-control " id="seleção" placeholder="Masculino">
-              <img src="../Projeto-Final-Design/assets/img/seta-baixo.svg" alt="" class="position-absolute" onclick="mostrarSelecao()">
-            </div>
-            <div id="drop" class="dropDown d-none" type="off">
-              <div class="listDropDown">
-                <div class="item" id="item-1">Masculino</div>
-                <div class="item" id="item-2">Feminino</div>
-                <div class="item" id="item-3">Prefiro não informar</div>
-              </div>
+              <img src="../Projeto-Final-Design/assets/img/seta-baixo.svg" alt="" class="position-absolute">
             </div>
           </fieldset>
-
+          <fieldset disabled class="UF terceira-formatacao">
+            <label for="text" class="form-label">UF</label>
+            <input type="text" class="form-control" id="Text" placeholder="Unidade  Federativa do Atleta">
+          </fieldset>
+          <div class="cidade formatacao">
+            <label for="text" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="Text" placeholder="Natal">
+          </div>
         </form>
       </div>
   </section>
