@@ -3,6 +3,24 @@ body {
     min-width: 1500px;
 }
 
+/* Classes reutilizáveis */
+
+.navegacao {
+  font-size: 14px;
+  color: #555;
+}
+
+.btn-primary {
+    color: #FFF;
+    border: none;
+    background: #0095D9 !important;
+}
+
+.btn-primary:active {
+    border: none;
+    background: #217CA6 !important;
+}
+
 /* Faça login */
 
 .faca-login{
@@ -71,6 +89,7 @@ body {
 }
 
 /* alterar senha */
+
 .forgotten, .nova-senha h3 {
     border-bottom: 1px solid var(--Fuschia-60, #FCDDEC);
     padding-bottom: 16px;
@@ -171,16 +190,6 @@ body {
     background: none;
 }
 
-#dashboard .btn-primary {
-    border: none;
-    background: #0095D9;
-}
-
-#dashboard .btn-primary:active {
-    border: none;
-    background: #217CA6;
-}
-
 #dashboard .junior {
     min-width: 200px;
     margin-right: 24px;
@@ -215,11 +224,6 @@ body {
 #dashboard .btn {
     padding: 8px 16px;
     height: 40px;
-}
-
-#dashboard .btn .btn-primary {
-    color: #FFF;
-    background-color: #0095D9;
 }
 
 #dashboard .btn-2 {
@@ -305,4 +309,49 @@ body {
 
 #dashboard .nascimento input, #dashboard .nome input{
     background-color: #fff;
+}
+
+/* ALterar-perfil */
+
+#alterar-senha .col-12,
+#alterar-senha .col-4 {
+  margin: 0;
+  padding: 0;
+}
+
+#alterar-senha .navegacao {
+  gap: 8px;
+}
+
+#alterar-senha .navegacao img {
+    width: 6px;
+    height: auto;
+}
+
+#alterar-senha .navegacao span:nth-child(1) {
+  color: #0095d9;
+}
+
+#alterar-senha .title h2 {
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#alterar-senha .formulario, #alterar-senha .descricao {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#alterar-senha .formulario label {
+    font-weight: 600;
+}
+
+#alterar-senha .btn {
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 20px;
 }
