@@ -88,7 +88,7 @@ body {
     color: #307FE2;
 }
 
-/* alterar senha */
+/* Alterar senha */
 
 .forgotten, .nova-senha h3 {
     border-bottom: 1px solid var(--Fuschia-60, #FCDDEC);
@@ -267,7 +267,7 @@ body {
     color: #4F4F4F;
 }
 
-/* Dashboard - Editar */
+/* Dashboard / Editar */
 
 #dashboard .form {
     padding: 1vh 2vh 2vh 2vh;
@@ -311,7 +311,7 @@ body {
     background-color: #fff;
 }
 
-/* ALterar-perfil */
+/* Dashboard / ALterar-perfil */
 
 #alterar-senha .col-12,
 #alterar-senha .col-4 {
@@ -319,16 +319,19 @@ body {
   padding: 0;
 }
 
-#alterar-senha .navegacao {
+#alterar-senha .navegacao,
+#modalidades .navegacao {
   gap: 8px;
 }
 
-#alterar-senha .navegacao img {
+#alterar-senha .navegacao img,
+#modalidades .navegacao img {
     width: 6px;
     height: auto;
 }
 
-#alterar-senha .navegacao span:nth-child(1) {
+#alterar-senha .navegacao span:nth-child(1),
+#modalidades .navegacao span:nth-child(1) {
   color: #0095d9;
 }
 
@@ -354,4 +357,25 @@ body {
     color: #FFF;
     font-size: 14px;
     padding: 8px 20px;
+}
+
+/* Modalidades */
+
+#menu-lateral .modalidades-destaque {
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+
+#menu-lateral .modalidades-destaque span {
+    color: #0095D9;
+}
+
+#modalidades .navegacao {
+    font-size: 12px;
+}
+
+#modalidades .title h2{
+    color: #333;
+    font-family: "Poppins";
+    font-size: 18px;
 }
