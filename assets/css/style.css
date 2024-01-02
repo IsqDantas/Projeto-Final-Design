@@ -192,30 +192,30 @@ body {
     font-family: 'Poppins', sans-serif;
 } 
 
-#perfil .junior {
+#dashboard .junior {
     min-width: 200px;
     margin-right: 24px;
 }
 
-#perfil .card {
+#dashboard .card {
     padding-top: 16px; 
     font-family: 'Open Sans', sans-serif;
     color: #333333;
 }
 
-#perfil .bola-imagem {
+#dashboard .bola-imagem {
     border-radius: 50%;
     width: 100px;
     opacity: 90%;
     fill: rgba(51, 51, 51, 0.30);
 }
 
-#perfil .bola {
+#dashboard .bola {
     position: relative;
     font-weight: 600;
 }
 
-#perfil .trocar-foto {
+#dashboard .trocar-foto {
     font-size: 12px;
     position: absolute;
     color: #FFFFFF;
@@ -223,42 +223,86 @@ body {
     margin-top: 10px;
 }
 
-#perfil .btn {
+#dashboard .btn {
     padding: 8px 16px;
     height: 40px;
 }
 
-#perfil .btn .btn-primary {
+#dashboard .btn .btn-primary {
     color: #FFF;
     background-color: #0095D9;
 }
 
-#perfil .btn-2 {
+#dashboard .btn-2 {
     color: #0095D9;
 }
 
-#perfil .btn-3 {
+#dashboard .btn-3 {
     color: #FF161F;
 }
 
-#perfil .list-group {
+#dashboard .list-group {
     min-width: 662px;
 }
 
-#perfil .list-group-item {
+#dashboard .list-group-item {
     font-size: 14px;
     padding-top: 16px;
     padding-bottom: 16px;
     font-weight: 600;
 }
 
-#perfil .list-group-item span{
+#dashboard .list-group-item span{
     width: 340px;
     color: #333333; 
+    font-weight: 400;
+}
+
+#dashboard .list-group-item span:nth-child(2){
+    color: #4F4F4F;
+}
+
+/* Dashboard - Editar */
+
+#dashboard .form {
+    padding: 1vh 2vh 2vh 2vh;
+    border-radius: 8px;
+}
+
+
+#dashboard .form label{
+    color: #333;
+    font-size: 14px;
     font-weight: 600;
 }
 
-#perfil .list-group-item span:nth-child(2){
-    color: #4F4F4F;
+#dashboard .form input, #dashboard .form select{
+    padding: 1vh 1.6vh;
+    font-size: 14px;
+    border-radius: 8px;
     font-weight: 400;
+    border: solid 1px #E0E0E0;
+}
+
+#dashboard .formatacao{
+    width: 321px;
+}
+
+#dashboard .segunda-formatacao{
+    width: 200px;
+}
+
+#dashboard .terceira-formatacao{
+    width: 226px;
+}
+
+#dashboard .nascimento img, #dashboard .nome img {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 3%;
+    cursor: pointer;
+}
+
+#dashboard .nascimento input, #dashboard .nome input{
+    background-color: #fff;
 }
