@@ -374,6 +374,11 @@ body {
     font-size: 12px;
 }
 
+#modalidades > .container > .row:nth-child(1),
+#modalidades > .container > .row:nth-child(2) {
+    padding: 10px;
+}
+
 #modalidades .title h2{
     color: #333;
     font-family: "Poppins";
@@ -395,5 +400,36 @@ body {
 
 #modalidades .form button:nth-child(1) .img-fluid {
     left: 16px;
+}
+
+#modalidades .col-12 .container
+
+#modalidades .container-form {
+    border-radius: 8px 8px 0px 0px;
+    background: #F4F4F4;
+    padding: 16px;
+    margin-top: 20px;
+}
+
+#modalidades .container-form > * {
+    width: fit-content;
+}
+
+#modalidades .container-form > .container-input {
+    width: 100%;
+    max-width: 394px;
+}
+
+#modalidades .container-input img {
+    left: 8px;
+}
+
+#modalidades .container-input input {
+    padding-left: 32px;
+}
+
+#modalidades .container-form > select {
+    background-image: url("../img/arrow-down-blue.svg");
+    width: fit-content;
 }
 

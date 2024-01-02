@@ -63,13 +63,39 @@
     <section class="col-7 offset-1 mt-4" id="modalidades">
         <div class="container">
             <div class="row">
-                <div class="col-12 d-flex navegacao">
-                    <span>Modalidades</span>
+                <div class="col-12 d-flex navegacao py-0 pe-0">
+                    <span class="fw-semibold">Modalidades</span>
                     <img src="assets/img/arrow.svg" alt="" />
                     <span>Detalhamento da modalidade</span>
                 </div>
-                <div class="col-12 border-bottom mt-3 p-2 title d-flex justify-content-between align-items-center">
+                <div class="col-12 border-bottom title d-flex justify-content-between align-items-center">
                     <h2 class="fw-semibold m-0">Modalidade</h2>
+                    <div class="d-flex gap-4 form">
+                        <button type="button" class="btn btn-primary position-relative"><img src="assets/img/excel.svg" alt="" class="img-fluid position-absolute">Gerar Relatórios</button>
+                        <button type="button" class="btn btn-primary position-relative border-0">Cadastrar Modalidade</button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="container container-form d-flex gap-2">
+                        <div class="container-input position-relative">
+                            <img alt="" src="assets/img/search.svg" class="position-absolute top-50 translate-middle-y">
+                            <input type="text" class="form-control" placeholder="Pesquise por uma modalidade">
+                        </div>
+                        <select class="form-select">
+                            <option selected>Filtrar por categoria</option>
+                            <option value="Individual">Individual</option>
+                            <option value="Coletivo">Coletivo</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Misto">Misto</option>
+                        </select>
+                        <select class="form-select">
+                            <option selected>Curso</option>
+                            <option value="Informática">Informática</option>
+                            <option value="Eletrônica">Eletrônica</option>
+                            <option value="Comércio">Comércio</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
