@@ -5,131 +5,123 @@ body {
 
 /* Faça login */
 
-.faca-login {
-  background-image: url("../img/background-awe.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+.faca-login{
+    background-image: url("../img/background-awe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-.logo-awe {
-  transform: translate(-50%, -50%);
-  top: 15%;
-  left: 50%;
+.logo-awe{
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 50%;
 }
 
-.login-meio p {
-  font-family: "Poppins", sans-serif;
-  color: #307fe2;
-  font-size: 32px;
-  font-weight: 600;
+.login-meio p{
+    font-family: 'Poppins', sans-serif;
+    color: #307FE2;
+    font-size: 32px;
+    font-weight: 600;
 }
 
-.linha-azul {
-  width: 168px;
-  height: 4px;
-  border-radius: 100px;
-  background: #307fe2;
-  margin-bottom: 8px;
+.linha-azul{
+    width: 168px;
+    height: 4px;
+    border-radius: 100px;
+    background: #307FE2;
+    margin-bottom: 8px;
 }
 
-.login-meio span {
-  font-size: 14px;
-  font-weight: 400;
-  color: #333;
+.login-meio span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
 }
 
 /* Form entrar */
 
 .form-entrar {
-  padding-bottom: 144px;
+    padding-bottom: 144px;
 }
 
 .form-entrar button[type="submit"] {
-  font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .links-form {
-  font-size: 0.75rem;
+    font-size: 0.75rem;
 }
 
-.senha {
-  position: relative;
+.senha{
+    position: relative;
 }
 
-.form-senha {
-  display: inline;
+.form-senha{
+    display: inline;
 }
 
-.senha .eye-closed {
-  cursor: pointer;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  right: 3%;
-  color: #307fe2;
+.senha .eye-closed{
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 3%;
+    color: #307FE2;
 }
 
 /* alterar senha */
-.forgotten,
-.nova-senha h3 {
-  border-bottom: 1px solid var(--Fuschia-60, #fcddec);
-  padding-bottom: 16px;
+.forgotten, .nova-senha h3 {
+    border-bottom: 1px solid var(--Fuschia-60, #FCDDEC);
+    padding-bottom: 16px;
 }
 
 .linha-fuchsia {
-  border-bottom: 1px solid var(--Fuschia-60, #fcddec);
+    border-bottom: 1px solid var(--Fuschia-60, #FCDDEC);
 }
 
 .form-entrar a[href="index.html"] {
-  font-size: 12px;
+    font-size: 12px;
 }
 .recupere {
-  color: #333;
-  width: 400px;
-  font-size: 14px;
+    color: #333;
+    width: 400px;
+    font-size: 14px;
 }
 
 /* Menu lateral */
 
 #menu-lateral {
-  font-family: "Poppins", sans-serif;
-  border-right: 1px solid #bdbdbd;
+    font-family: 'Poppins', sans-serif;
+    border-right: 1px solid #BDBDBD;
 }
 
 #menu-lateral .menu-lateral-container {
-  padding: 32px;
+    padding: 32px;
 }
 
 #menu-lateral .logos {
-  margin-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 #menu-lateral .secoes {
-  gap: 20px;
+    gap: 20px;
 }
 
 #menu-lateral .linha-cinza-claro {
-  border-color: #f2f2f2;
+    border-color: #F2F2F2;
 }
 
 #menu-lateral .texto-saida {
-  color: #ff161f;
+    color: #FF161F; 
 }
 
 #menu-lateral .texto-atleta {
-  color: #4f4f4f;
-  font-size: 12px;
+    color: #4F4F4F;
+    font-size: 12px;
 }
 
 /* Dashboard */
-
-/* perfil */
-
-#perfil .col-12, #perfil .col-2 {
-    margin: 0;
-    padding: 0;
-}
 
 #dashboard h4{
     font-family: "Poppins", sans-serif;
@@ -188,10 +180,6 @@ body {
     border: none;
     background: #217CA6;
 }
-#perfil .atleta {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-} 
 
 #dashboard .junior {
     min-width: 200px;
@@ -238,6 +226,18 @@ body {
     color: #0095D9;
 }
 
+#dashboard .list-group-item span:nth-child(1){
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#dashboard .list-group-item span:nth-child(2){
+    color: #4F4F4F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 #dashboard .btn-3 {
     color: #FF161F;
 }
@@ -269,7 +269,6 @@ body {
     padding: 1vh 2vh 2vh 2vh;
     border-radius: 8px;
 }
-
 
 #dashboard .form label{
     color: #333;
@@ -306,46 +305,4 @@ body {
 
 #dashboard .nascimento input, #dashboard .nome input{
     background-color: #fff;
-}
-/* ALterar-perfil */
-
-#alterar-senha .col-12,
-#alterar-senha .col-4 {
-  margin: 0;
-  padding: 0;
-}
-
-#alterar-senha .navegacao {
-  gap: 8px;
-  font-size: 14px;
-  color: #555;
-}
-
-#alterar-senha .navegacao span:nth-child(1) {
-  color: #0095d9;
-}
-
-#alterar-senha .title h2 {
-  color: #333333;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-#alterar-senha .formulario, #alterar-senha .descricao {
-  color: #333;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-#alterar-senha .formulario label {
-    font-weight: 600;
-}
-
-#alterar-senha button {
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 8px 20px;
 }
