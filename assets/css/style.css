@@ -119,3 +119,68 @@ body {
     color: #4F4F4F;
     font-size: 12px;
 }
+
+/* Dashboard */
+
+#dashboard .col-12, #dashboard .col-3 {
+    margin: 0;
+    padding: 0;
+}
+
+#dashboard h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding-top: 32px;
+}
+
+#dashboard .badge-confirmado, #dashboard .badge-a-pagar {
+    border-radius: 14px;
+    color: var(--Primary-White, #FFF);
+    font-size: 8px;
+    line-height: 120%;
+}
+
+#dashboard .badge-confirmado {
+    background: var(--Green-1, #219653);
+    padding: 7px 8px;
+}
+
+#dashboard .badge-a-pagar {
+    background: #BB6BD9;
+}
+
+#dashboard .card-body {
+    gap: 36px;
+}
+
+
+#dashboard .card-body .img-fluid {
+    max-width: 38px;
+}
+
+#dashboard .card-body .card-title {
+    font-size: 16px;
+    margin: 0;
+}
+
+#dashboard .btn {
+    font-size: 14px;
+    width: fit-content;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+#dashboard .btn-light {
+    border: 1px solid #DFE2E7;
+    background: none;
+}
+
+#dashboard .btn-primary {
+    border: none;
+    background: #0095D9;
+}
+
+#dashboard .btn-primary:active {
+    border: none;
+    background: #217CA6;
+}
