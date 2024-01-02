@@ -379,3 +379,21 @@ body {
     font-family: "Poppins";
     font-size: 18px;
 }
+
+#modalidades .form button {
+    font-family: Poppins;
+    font-size: 14px;
+    padding: 10px 16px;
+}
+
+#modalidades .form button:nth-child(1) {
+    background: none !important;
+    color: #0095D9;
+    border: 1px solid #0095D9;
+    padding-left: 44px;
+}
+
+#modalidades .form button:nth-child(1) .img-fluid {
+    left: 16px;
+}
+
