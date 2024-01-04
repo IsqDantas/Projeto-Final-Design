@@ -16,11 +16,11 @@ body {
     background: #217CA6 !important;
 }
 
-
 .navegacao {
     font-size: 14px;
     color: #555;
 }
+
 .navegacao {
     gap: 8px;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .title h2 {
-    color: #333333;
+    color: #333;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     margin: 0;
