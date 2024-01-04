@@ -66,17 +66,56 @@
                 <div class="d-flex navegacao">
                     <span>Modalidades</span>
                     <img src="assets/img/arrow.svg" alt="" />
-                    <span>Detalhamento da modalidade</span>
+                    <span>Natação</span>
+                    <img src="assets/img/arrow.svg" alt="" />
+                    <span>Cadastro</span>
                 </div>
-                <div class="border-bottom mt-3 p-2 title d-flex justify-content-between align-items-center">
-                    <h2 class="fw-semibold m-0">Natação</h2>
+                <div class="border-bottom mt-3 p-2 title d-flex justify-content-between align-items-center header">
+                    <h2 class="fw-semibold m-0">Cadastramento de Categoria</h2>
                 </div>
             </div>
         </div>
 
         <section class="col-12">
             <div class="row" id="natação">
-                
+                <div class="col-2 natação card" id="dashboard">
+                    <div class="bola d-flex justify-content-center border-bottom border-1 padding-b pt-1">
+                        <img src="assets/img/nat-logo.svg" alt="" class="card-img bola-imagem" />
+                    </div>
+                    <div class="border-bottom border-1 padding-t">
+                        <div class="padding-t">
+                            <h3 class="sobre">Tipo</h3>
+                            <div class="individual d-flex justify-content-center">Individual</div>
+                        </div>
+                        <div class="padding-t padding-b">
+                            <h3 class="sobre">Inscrições</h3>
+                            <span>0 Atletas</span>
+                        </div>
+                    </div>
+                    <div class="mt-3"><a href="#" class="link">Exibir categorias</a></div>
+                </div>
+
+                <div class="rounded col-6">
+                    <form class="form-epic border" id="cadastrar">
+                        <div class="col-8">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" placeholder="Digite o nome da categoria">
+                        </div>
+                        <label for="nome" class="form-label">Ocupação máxima por curso</label>
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="00">
+                        </div>
+                        <div class="col-5">
+                            <label for="nome" class="form-label">Limite masculino</label>
+                            <input type="text" class="form-control" placeholder="00">
+                        </div>
+                        <div class="col-5">
+                            <label for="nome" class="form-label">Limite feminino</label>
+                            <input type="text" class="form-control" placeholder="00">
+                        </div>
+                    </form>
+                    <div class="d-flex justify-content-end"><button type="submit" form="cadastrar" class="btn btn-cadastrar">Cadastrar</button></div>
+                </div>
         </section>
 
 
