@@ -409,6 +409,14 @@ body {
     color: #333;
 }
 
+#natação .padding-b {
+    padding-bottom: 20px;
+}
+
+#natação .padding-t {
+    padding-top: 20px;
+}
+
 #natação .individual {
     background: #E9F8FF;
     border-radius: 100px;
