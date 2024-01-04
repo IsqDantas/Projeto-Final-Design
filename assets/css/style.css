@@ -42,6 +42,11 @@ body {
     font-weight: 600;
 }
 
+select.form-select {
+    background-image: url("../img/arrow-down-blue.svg");
+    background-size: 10px auto;
+}
+
 /* Faça login */
 
 .faca-login{
@@ -435,8 +440,6 @@ body {
 }
 
 #modalidades .container-form > select {
-    background-image: url("../img/arrow-down-blue.svg");
-    background-size: 10px auto;
     width: fit-content;
 }
 
