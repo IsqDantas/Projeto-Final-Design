@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="h-100">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Ícones do bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+
+    <!-- CSS local -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="h-100 d-flex gap-5 overflow-x-hidden">
+    <section id="menu-lateral" class="col-2 h-100">
+        <div class="menu-lateral-container d-flex flex-column justify-content-between h-100">
+            <div>
+                <div class="logos d-flex justify-content-between">
+                    <a href="#"><img src="assets/img/logo-awe-sem-texto.svg" alt="" /></a>
+                    <img id="menu-hamburguer" src="assets/img/menu-hamburguer.svg" alt="" />
+                </div>
+                <div class="secoes d-flex flex-column">
+                    <a href="dashboard.html" class="d-flex gap-2 p-2 text-body text-decoration-none">
+                        <img src="assets/img/home.svg" alt="" /><span>Dashboard</span>
+                    </a>
+                    <a href="#" class="d-flex gap-2 p-2 text-body text-decoration-none modalidades-destaque">
+                        <img src="assets/img/star-blue.svg" alt="" /><span>Modalidades</span>
+                    </a>
+                    <div class="linha-cinza-claro border-bottom"></div>
+                    <a href="index.html" class="d-flex gap-2 p-2 text-body text-decoration-none">
+                        <img src="assets/img/back.svg" alt="" /><span class="texto-saida">Sair</span>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="usuario d-flex gap-2 text-body text-decoration-none">
+                <img src="assets/img/user-circle.svg" alt="" />
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="fw-bold">Jr Programador</div>
+                    <div class="texto-atleta">Atleta</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- modalidades -->
+    <section class="col-7 offset-1 mt-4" id="modalidades">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex navegacao">
+                    <span class="fw-semibold">Modalidades</span>
+                    <img src="assets/img/arrow.svg" alt="" />
+                    <span>Cadastro</span>
+                </div>
+                <div class="col-12 border-bottom title d-flex justify-content-between align-items-center">
+                    <h2>Modalidade</h2>
+                    <div class="d-flex gap-4 form">
+                        <button type="button" class="btn btn-primary position-relative"><img src="assets/img/excel.svg" alt="" class="img-fluid position-absolute">Gerar Relatórios</button>
+                        <button type="button" class="btn btn-primary position-relative border-0">Cadastrar Modalidade</button>
+                    </div>
+                </div>
+                <div class="col-12 mt-4">
+                    <div class="container container-form d-flex gap-2">
+                        <div class="container-input position-relative">
+                            <img alt="" src="assets/img/search.svg" class="position-absolute top-50 translate-middle-y">
+                            <input type="text" class="form-control" placeholder="Pesquise por uma modalidade">
+                        </div>
+                        <select class="form-select">
+                            <option selected>Filtrar por categoria</option>
+                            <option value="Individual">Individual</option>
+                            <option value="Coletivo">Coletivo</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Misto">Misto</option>
+                        </select>
+                        <select class="form-select">
+                            <option selected>Curso</option>
+                            <option value="Informática">Informática</option>
+                            <option value="Eletrônica">Eletrônica</option>
+                            <option value="Comércio">Comércio</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 px-0 mt-2">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="py-3">Modalidade</th>
+                            <th scope="col" class="py-3">Tipo</th>
+                            <th scope="col" class="py-3" colspan="2">Inscritos</th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/run.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">Corrida</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/kick.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">Beach tennis</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/run.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">Futebol 11</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/run.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">Futsal</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/run.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">jiu-jitsu</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/run.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">Natação</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/run.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">Tênis de Mesa</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/run.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">Vôlei de quadra</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td class="py-3 modalidade">
+                                <div class="d-flex gap-4"><img src="assets/img/run.svg" alt="" class="img-fluid"><span class="text-capitalize fw-semibold texto-tabela">Xadrez</span></div>
+                            </td>
+                            <td class="py-3 tipo"><span class="badge fw-normal">Individual</span></td>
+                            <td class="py-3 inscritos text-capitalize fw-semibold texto-tabela"><span>10 participantes</span></td>
+                            <td class="py-3 icone-notebook"><a href="bote o link aqui, davi xD" class="w-100 d-flex justify-content-start"><img src="assets/img/note.svg" alt=""></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="col-12 d-flex justify-content-end modalidades-exibidas"><span>9 Modalidades exibidas</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
