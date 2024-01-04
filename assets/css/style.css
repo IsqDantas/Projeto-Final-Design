@@ -6,14 +6,14 @@ body {
 /* Classes reutilizáveis */
 
 .btn-primary {
-  color: #fff;
-  border: none;
-  background: #0095d9 !important;
+    color: #fff;
+    border: none;
+    background: #0095d9 !important;
 }
 
 .btn-primary:active {
-  border: none;
-  background: #217ca6 !important;
+    border: none;
+    background: #217ca6 !important;
 }
 
 .navegacao {
@@ -40,6 +40,7 @@ body {
     font-size: 18px;
     margin: 0;
     font-weight: 600;
+    padding: 10px 0 18px 0
 }
 
 select.form-select {
@@ -574,6 +575,7 @@ select.form-select {
     max-width: 592px;
     margin-top: 32px;
     gap: 32px;
+    padding: 0;
 }
 
 #modalidades-cadastro .form .card-body {
