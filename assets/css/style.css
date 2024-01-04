@@ -190,9 +190,10 @@ body {
     background: none;
 }
 
-#dashboard .junior {
+#dashboard .junior, #natação .natação {
     min-width: 200px;
     margin-right: 24px;
+    height: max-content;
 }
 
 #dashboard .card {
@@ -397,3 +398,116 @@ body {
     left: 16px;
 }
 
+/* Modalidades - Natação */
+#natação {
+    padding: 32px 0 0 0;
+}
+
+#natação .sobre {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+#natação .padding-b {
+    padding-bottom: 20px;
+}
+
+#natação .padding-t {
+    padding-top: 20px;
+}
+
+#natação .individual {
+    background: #E9F8FF;
+    border-radius: 100px;
+    color: #0095D9;
+    width: 100px;
+}
+
+#natação .link {
+    color: #0095D9;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#natação .card, #natação .list-inscricoes {
+    padding: 16px;
+} 
+
+#natação .list-inscricoes, #natação .inscricoes {
+    font-weight: 700;
+    color: #333;
+    font-size: 16px;
+    background: #F7F7F7 ;
+}
+
+#natação .list {
+    padding: 2px 0 2px 0; 
+}
+
+#natação .sobre-inscrito, #natação .sobre-inscrito .curso {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}
+
+#natação .sobre-inscrito span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#natação .validação {
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 6px;
+}
+
+#natação .confirmado {
+    background: #E7FFF1;
+    color: #219653;
+}
+
+#natação .aguardando {
+    background: #FFF8F2;
+    color: #E59146;
+}
+
+#natação .expirado {
+    background: #767676;
+    font-style: italic;
+    color: #fff;
+}
+
+#natação .expirado-font .sobre-inscrito span, #natação .expirado-font .sobre-inscrito div {
+    color: #767676;
+}
+
+#natação .tempo {
+    font-size: 12px;
+    font-weight: 400;
+    color: #828282;
+}
+
+#natação .confirmação {
+    padding: 2px 10px 2px 0;
+}
+
+#natação .botões button {
+    border-radius: 4px;
+    border: 1px solid #4F4F4F;
+    padding: 4px 8px;
+    background: rgba(51, 51, 51, 0);
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 400;
+    color: #4F4F4F;
+    transition: 0.5s;
+}
+
+#natação .botões button:hover {
+    transition: 0.5s;
+    background: rgba(51, 51, 51, 1);
+    color: white;
+}
+ 
