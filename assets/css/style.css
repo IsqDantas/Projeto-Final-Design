@@ -190,7 +190,13 @@ body {
     background: none;
 }
 
-#dashboard .junior {
+#dashboard .junior{
+    min-width: 200px;
+    margin-right: 24px;
+    height: max-content;
+}
+
+#categorias .categorias {
     min-width: 200px;
     margin-right: 24px;
 }
@@ -331,7 +337,8 @@ body {
 }
 
 #alterar-senha .navegacao span:nth-child(1),
-#modalidades .navegacao span:nth-child(1) {
+#modalidades .navegacao span:nth-child(1),
+#modalidades .navegacao span:nth-child(3) {
   color: #0095d9;
 }
 
@@ -397,3 +404,52 @@ body {
     left: 16px;
 }
 
+/* Modalidades - categorias */
+#categorias {
+    padding: 32px 0 0 0;
+}
+
+#categorias .padding-b {
+    padding-bottom: 20px;
+}
+
+#categorias .padding-t {
+    padding-top: 20px;
+}
+
+#categorias .sobre {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+#categorias .individual {
+    background: #E9F8FF;
+    border-radius: 100px;
+    color: #0095D9;
+    width: 100px;
+}
+
+#categorias .link {
+    color: #0095D9;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#categorias .card, #categorias .list-group-item {
+    padding: 12px 16px;
+} 
+
+#categorias .list-ocupação, #categorias .list-categ {
+    width: 230px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+#categorias .list-categorias, #categorias .categ {
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+    background: #F7F7F7 ;
+}
