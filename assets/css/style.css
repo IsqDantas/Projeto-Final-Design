@@ -541,3 +541,66 @@ body {
   width: 164px;
   margin-top: 31px;
 }
+
+/* Cadastro de modalidades */
+
+#modalidades-cadastro .form {
+    max-width: 592px;
+    margin-top: 32px;
+    gap: 32px;
+}
+
+#modalidades-cadastro .form .card-body {
+    gap: 24px;
+    padding-left: 24px !important;
+    padding-bottom: 24px !important;
+}
+
+#modalidades-cadastro .form * {
+    font-size: 14px;
+}
+
+#modalidades-cadastro .form input[type="text"],
+#modalidades-cadastro .form select {
+    padding: 12px 0 12px 16px;
+}
+
+#modalidades-cadastro .form input[type="text"] {
+    max-width: 320px;
+}
+
+#modalidades-cadastro .form input[type="text"]::placeholder {
+    color: #828282;
+}
+
+#modalidades-cadastro label:not(.form-check-label) {
+    color: #333;
+    font-weight: 600;
+}
+
+#modalidades-cadastro label.form-check-label {
+    color: #4F4F4F;
+    font-weight: 400;
+}
+
+#modalidades-cadastro .container-radio {
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+}
+
+#modalidades-cadastro .form input[type="radio"] {
+    border-color: #0095D9;
+}
+
+#modalidades-cadastro .form select {
+    max-width: 200px;
+}
+
+#modalidades-cadastro .form select option {
+    color: #333;
+}
+
+#modalidades-cadastro .form button[type="submit"] {
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+}
